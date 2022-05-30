@@ -24,18 +24,21 @@ gdjs.entrarCode.condition1IsTrue_0 = {val:false};
 gdjs.entrarCode.condition2IsTrue_0 = {val:false};
 gdjs.entrarCode.condition3IsTrue_0 = {val:false};
 gdjs.entrarCode.condition4IsTrue_0 = {val:false};
+gdjs.entrarCode.condition5IsTrue_0 = {val:false};
 gdjs.entrarCode.conditionTrue_1 = {val:false};
 gdjs.entrarCode.condition0IsTrue_1 = {val:false};
 gdjs.entrarCode.condition1IsTrue_1 = {val:false};
 gdjs.entrarCode.condition2IsTrue_1 = {val:false};
 gdjs.entrarCode.condition3IsTrue_1 = {val:false};
 gdjs.entrarCode.condition4IsTrue_1 = {val:false};
+gdjs.entrarCode.condition5IsTrue_1 = {val:false};
 gdjs.entrarCode.conditionTrue_2 = {val:false};
 gdjs.entrarCode.condition0IsTrue_2 = {val:false};
 gdjs.entrarCode.condition1IsTrue_2 = {val:false};
 gdjs.entrarCode.condition2IsTrue_2 = {val:false};
 gdjs.entrarCode.condition3IsTrue_2 = {val:false};
 gdjs.entrarCode.condition4IsTrue_2 = {val:false};
+gdjs.entrarCode.condition5IsTrue_2 = {val:false};
 
 
 gdjs.entrarCode.mapOfGDgdjs_46entrarCode_46GDentrarObjects2Objects = Hashtable.newFrom({"entrar": gdjs.entrarCode.GDentrarObjects2});gdjs.entrarCode.eventsList0 = function(runtimeScene) {
@@ -460,6 +463,9 @@ gdjs.entrarCode.condition1IsTrue_0.val = false;
 {gdjs.entrarCode.conditionTrue_1 = gdjs.entrarCode.condition0IsTrue_0;
 gdjs.entrarCode.condition0IsTrue_1.val = false;
 gdjs.entrarCode.condition1IsTrue_1.val = false;
+gdjs.entrarCode.condition2IsTrue_1.val = false;
+gdjs.entrarCode.condition3IsTrue_1.val = false;
+gdjs.entrarCode.condition4IsTrue_1.val = false;
 {
 for(var i = 0, k = 0, l = gdjs.entrarCode.GDID_95text_95entryObjects1.length;i<l;++i) {
     if ( gdjs.entrarCode.GDID_95text_95entryObjects1[i].getString() != gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("diaano")) + "wonderland" + gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("diames")) ) {
@@ -477,8 +483,38 @@ for(var i = 0, k = 0, l = gdjs.entrarCode.GDID_95text_95entryObjects1.length;i<l
         ++k;
     }
 }
+gdjs.entrarCode.GDID_95text_95entryObjects1.length = k;}if ( gdjs.entrarCode.condition1IsTrue_1.val ) {
+{
+for(var i = 0, k = 0, l = gdjs.entrarCode.GDID_95text_95entryObjects1.length;i<l;++i) {
+    if ( gdjs.entrarCode.GDID_95text_95entryObjects1[i].getString() != gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("diaano")) + "madhatter" + gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("diames")) ) {
+        gdjs.entrarCode.condition2IsTrue_1.val = true;
+        gdjs.entrarCode.GDID_95text_95entryObjects1[k] = gdjs.entrarCode.GDID_95text_95entryObjects1[i];
+        ++k;
+    }
+}
+gdjs.entrarCode.GDID_95text_95entryObjects1.length = k;}if ( gdjs.entrarCode.condition2IsTrue_1.val ) {
+{
+for(var i = 0, k = 0, l = gdjs.entrarCode.GDID_95text_95entryObjects1.length;i<l;++i) {
+    if ( gdjs.entrarCode.GDID_95text_95entryObjects1[i].getString() != gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("diaano")) + "alice" + gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("diames")) ) {
+        gdjs.entrarCode.condition3IsTrue_1.val = true;
+        gdjs.entrarCode.GDID_95text_95entryObjects1[k] = gdjs.entrarCode.GDID_95text_95entryObjects1[i];
+        ++k;
+    }
+}
+gdjs.entrarCode.GDID_95text_95entryObjects1.length = k;}if ( gdjs.entrarCode.condition3IsTrue_1.val ) {
+{
+for(var i = 0, k = 0, l = gdjs.entrarCode.GDID_95text_95entryObjects1.length;i<l;++i) {
+    if ( gdjs.entrarCode.GDID_95text_95entryObjects1[i].getString() != gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("diaano")) + "rabbit" + gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("diames")) ) {
+        gdjs.entrarCode.condition4IsTrue_1.val = true;
+        gdjs.entrarCode.GDID_95text_95entryObjects1[k] = gdjs.entrarCode.GDID_95text_95entryObjects1[i];
+        ++k;
+    }
+}
 gdjs.entrarCode.GDID_95text_95entryObjects1.length = k;}}
-gdjs.entrarCode.conditionTrue_1.val = true && gdjs.entrarCode.condition0IsTrue_1.val && gdjs.entrarCode.condition1IsTrue_1.val;
+}
+}
+}
+gdjs.entrarCode.conditionTrue_1.val = true && gdjs.entrarCode.condition0IsTrue_1.val && gdjs.entrarCode.condition1IsTrue_1.val && gdjs.entrarCode.condition2IsTrue_1.val && gdjs.entrarCode.condition3IsTrue_1.val && gdjs.entrarCode.condition4IsTrue_1.val;
 }
 }if ( gdjs.entrarCode.condition0IsTrue_0.val ) {
 {
