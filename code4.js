@@ -7748,6 +7748,9 @@ gdjs.jogoCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegin
 {
 
 
+{
+{runtimeScene.getGame().getVariables().get("minutos").setNumber(59 - Math.floor(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().get("Mdec")) / 60));
+}}
 
 }
 
@@ -7755,34 +7758,13 @@ gdjs.jogoCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegin
 {
 
 
-
-}
-
-
+gdjs.jogoCode.condition0IsTrue_0.val = false;
 {
-
-
-
-}
-
-
-{
-
-
-
-}
-
-
-{
-
-
-
-}
-
-
-{
-
-
+gdjs.jogoCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().get("tempo")) == -(1);
+}if (gdjs.jogoCode.condition0IsTrue_0.val) {
+{runtimeScene.getGame().getVariables().get("tempo").setNumber(59);
+}{runtimeScene.getGame().getVariables().get("minutos").sub(1);
+}}
 
 }
 
@@ -7915,22 +7897,6 @@ gdjs.jogoCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(
 }if (gdjs.jogoCode.condition0IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().get("Mdec").setNumber((60 - gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().get("Mini")) + gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().get("Mact"))) * 60 + (gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().get("Sact")) - gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().get("Sini"))));
 }}
-
-}
-
-
-{
-
-
-
-}
-
-
-{
-
-
-{
-}
 
 }
 
